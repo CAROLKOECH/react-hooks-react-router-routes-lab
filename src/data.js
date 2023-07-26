@@ -1,57 +1,38 @@
-const movies = [
+// data.js
+export const moviesData = [
   {
-    title: "Doctor Strange",
-    time: 115,
-    genres: ["Action", "Adventure", "Fantasy"],
+    title: 'Movie 1',
+    time: '2h 30m',
+    genres: ['Action', 'Adventure'],
   },
   {
-    title: "Trolls",
-    time: 92,
-    genres: ["Animation", "Adventure", "Comedy", "Family", "Fantasy"],
+    title: 'Movie 2',
+    time: '1h 45m',
+    genres: ['Comedy', 'Drama'],
   },
-  {
-    title: "Jack Reacher: Never Go Back",
-    time: 118,
-    genres: ["Action", "Adventure", "Crime", "Mystery", "Thriller"],
-  },
+  // Add more movie objects as needed
 ];
 
-const actors = [
+export const directorsData = [
   {
-    name: "Benedict Cumberbatch",
-    movies: ["Doctor Strange", "The Imitation Game", "Black Mass"],
+    name: 'Director 1',
+    movies: ['Movie 1', 'Movie 3'],
   },
   {
-    name: "Justin Timberlake",
-    movies: ["Trolls", "Friends with Benefits", "The Social Network"],
+    name: 'Director 2',
+    movies: ['Movie 2', 'Movie 4'],
   },
-  {
-    name: "Anna Kendrick",
-    movies: ["Pitch Perfect", "Into The Wood"],
-  },
-  {
-    name: "Tom Cruise",
-    movies: [
-      "Jack Reacher: Never Go Back",
-      "Mission Impossible 4",
-      "War of the Worlds",
-    ],
-  },
+  // Add more director objects as needed
 ];
 
-const directors = [
+export const actorsData = [
   {
-    name: "Scott Derrickson",
-    movies: ["Doctor Strange", "Sinister", "The Exorcism of Emily Rose"],
+    name: 'Actor 1',
+    movies: ['Movie 1', 'Movie 2'],
   },
   {
-    name: "Mike Mitchell",
-    movies: ["Trolls", "Alvin and the Chipmunks: Chipwrecked", "Sky High"],
+    name: 'Actor 2',
+    movies: ['Movie 3', 'Movie 4'],
   },
-  {
-    name: "Edward Zwick",
-    movies: ["Jack Reacher: Never Go Back", "Blood Diamon", "The Siege"],
-  },
+  // Add more actor objects as needed
 ];
-
-export { movies, actors, directors };
